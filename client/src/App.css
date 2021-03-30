@@ -1,0 +1,74 @@
+body{
+  background-color: #043B53;
+}
+.App {
+  text-align: center;
+  color:#043B53;
+  box-sizing:border-box;
+}
+
+#note{
+  background-color: #fff;
+  border-radius: 8px;
+  margin:10px;
+  padding:10px 30px;
+}
+
+.todotask{
+  max-height: 200px;
+}
+
+.todotask .card{
+  max-height: 100%;
+}
+
+.list-group-item div{
+  display: inline-block;
+  text-align: left;
+}
+
+.divAlign div{
+  display: inline-block;
+  text-align: left;
+}
+
+
+.rowMiddle{
+  display: flex;
+    align-items: center;
+}
+
+.deleteStyle{
+  margin-left: -7px;
+}
+
+.errorMessage{
+  color: red;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.label{
+  display: block;
+  color: #888;
+  font-size: 0.7rem;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.btn-primary,.btn-success,.btn-danger{
+  background-color: white;
+  color:#E1C3AA;
+  border: 1px solid #7494A4;
+}
+.btn-primary:hover,.btn-success:hover,.btn-danger:hover,
+.btn-primary:focus,.btn-success:focus,.btn-danger:focus{
+  background-color: #E1C3AA;
+  border:1px solid #E1C3AA;
+  color:white
+}
+
+
+.loading{
+  color:white
+}

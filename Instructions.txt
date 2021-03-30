@@ -1,0 +1,9 @@
+1. Open a Terminal
+2. Go to server directory
+3. Run 'npm install'
+4. Run 'npm start'
+5. Open second Terminal
+6. Go to client directory
+7. Run 'npm install'
+8. Run 'npm start'
+9. Application will run in browser
